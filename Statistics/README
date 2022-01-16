@@ -1,0 +1,11 @@
+I've taken a sales dataset from a reputed source and tried to fit distributions such as normal, beta and assess if its a good fit or not. 
+Two approaches were taken to arrive at the results:
+
+Approach 1: Calculate the theoretical and practical CDF's and compare it. Here, we considered two such CDF's i.e., Normal CDF and Beta CDF with suitable parameters.
+  -> Tools Used: Microsoft Excel
+  -> The Beta Fit and Normal Fit CDF graphs can be looked at their respective *.xlsx files.
+  -> Futhur explanations can be found in the "Calculations" pdf document.
+
+Approach 2: Estimate the Beta distribution parameters using "Method of Moments(MM)" and "Method of Maximum Likelihood(ML)" and compare the fit with its respective histogram.
+  -> Tools Used: Python and its packages such as 'scipy.stats','numpy','pandas','matplotlib'.
+ 
